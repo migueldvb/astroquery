@@ -116,10 +116,6 @@ class JPLSpecClass(BaseQuery):
             else:
                 payload['Mol'] = molecule
 
-<<<<<<< HEAD
-=======
-
->>>>>>> daec1de0e1bdb9dfdfc28fa0294c98e7b5c184d7
         self.maxlines = max_lines
 
         payload = list(payload.items())
